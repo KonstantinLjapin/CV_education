@@ -10,15 +10,15 @@ from concurrent.futures import ThreadPoolExecutor
 # Глобальные параметры
 PARAMS = {
     'input_dxf': "training_dataset/cros/dxf/cross1.dxf",
-    'output_dir': "output_dxf",
-    'num_images': 20,
-    'base_scale': 30,
+    'output_dir': "training_dataset/cros/generate/output_dxf",
+    'num_images': 50,
+    'base_scale': 15,
     'scale_variation': 0.05,  # ±5% variation
     'bg_colors': [(255, 255, 255), (240, 240, 240), (230, 230, 250)],
     'fill_colors': [(70, 130, 180), (220, 20, 60), (34, 139, 34), (218, 165, 32)],
     'line_colors': [(0, 0, 0), (50, 50, 50), (100, 100, 100)],
     'line_width_range': (2, 4),
-    'max_rotation': 45,
+    'max_rotation': 5,
     'threads': 4
 }
 
