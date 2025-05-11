@@ -46,7 +46,7 @@ def draw_circle_random_centered(w, h, fc, mfs):
     return img
 
 
-_path = 'training_dataset'
+_path = '../training_dataset'
 if not os.path.exists(_path): os.makedirs(_path)
 _folder = os.path.join(_path, "boxes")
 if not os.path.exists(_folder): os.makedirs(_folder)
@@ -91,3 +91,4 @@ if __name__ == "__main__":
     start_time = time.time()
     asyncio.run(main())
     print(f"Общее время выполнения: {time.time() - start_time:.2f} сек.")
+    image_path = '../training_dataset/cros/original/26.PNG'
