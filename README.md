@@ -56,5 +56,8 @@ project_root/
 └── .gitignore              # Игнорируемые файлы
 
 - запуск, обслуживание, контроль
+
 - докеризация?
 - реальное железо?
+
+запуск python cross_center_detected.py
